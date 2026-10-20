@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { MENU_ITEMS } from '../data/coffeeData';
 import { MenuCategory, MenuItem } from '../types';
-import { Search, Flame, Sparkles, X, Coffee, CupSoda, Croissant, Leaf, Check } from 'lucide-react';
+import { Search, Flame, Sparkles, X, Coffee, CupSoda, Croissant, Leaf } from 'lucide-react';
 
 export const MenuSection: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<MenuCategory>('all');

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { X, Sparkles, Coffee, Flame, ArrowRight, RotateCcw } from 'lucide-react';
-import { BESTSELLERS_DATA, MENU_ITEMS } from '../data/coffeeData';
+import { X, Sparkles, ArrowRight, RotateCcw } from 'lucide-react';
+import { MENU_ITEMS } from '../data/coffeeData';
 import { MenuItem } from '../types';
 
 interface RoastQuizModalProps {

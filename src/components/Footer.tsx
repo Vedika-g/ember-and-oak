@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { CAFE_INFO } from '../data/coffeeData';
-import { Coffee, ArrowUp, Send, CheckCircle2, AlertCircle, Heart, Instagram, Music, BookOpen } from 'lucide-react';
+import { Coffee, ArrowUp, Send, CheckCircle2, AlertCircle, Instagram, Music, BookOpen } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const [email, setEmail] = useState('');

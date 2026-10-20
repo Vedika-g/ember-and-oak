@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { GALLERY_PHOTOS } from '../data/coffeeData';
-import { GalleryPhoto } from '../types';
 import { Camera, X, ChevronLeft, ChevronRight, Maximize2 } from 'lucide-react';
 
 export const GallerySection: React.FC = () => {
